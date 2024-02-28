@@ -1,0 +1,12 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+logging:
+  level:
+    root: INFO
+    com.example.demo.services: DEBUG
+  file.name: logs/myCustomLogs.log
+customVarTree:
+  num1: 2
+  num2: 8
